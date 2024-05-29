@@ -25,8 +25,8 @@ if password is not None:
             break
 
     if strength==1 or strength==2 or (len(password)<5 and len(password)>0):
-        st.write("Password strength is Weak")
+        st.write("Password strength: Weak")
     elif strength==3 or (len(password)<8 and len(password)>0):
-        st.write("Password strength is medium")
+        st.write("Password strength: medium")
     elif strength==4 or len(password)>7:
-        st.write("Password strength is strong")
+        st.write("Password strength: strong")
